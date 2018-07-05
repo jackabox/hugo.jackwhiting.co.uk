@@ -1,0 +1,8 @@
+name = "Jack Whiting"
+tags = ["blog", "minimal", "personal", "responsive"]
+features = ["blog", "taxonomies", "privacy"]
+min_version = 0.25
+
+[author]
+  name = "Jack Whiting"
+  homepage = "https://jackwhiting.co.uk"
