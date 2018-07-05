@@ -3,36 +3,13 @@ languageCode = "en-us"
 title = "Jack Whiting"
 
 theme = "jackwhiting"
-preserveTaxonomyNames = true
-rssLimit = 10
 paginate = 10
 pygmentsCodefences = true
 pygmentsStyle = "native"
 
-[taxonomies]  
-    tag = "tags"
+
 
 [permalinks]
-    post = "/posts/:slug/"
+    posts = "/posts/:slug/"
     works = "/works/:slug/"
     page = "/:slug/"
-
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = -140
-
-[[menu.main]]
-    name = "Posts"
-    url = "/posts/"
-    weight = -120
-
-[[menu.main]]
-    name = "Works"
-    url = "/works/"
-    weight = -130
-    
-[[menu.main]]
-    name = "Contact"
-    url = "mailto:hi@jackwhiting.co.uk"
-    weight = 200
