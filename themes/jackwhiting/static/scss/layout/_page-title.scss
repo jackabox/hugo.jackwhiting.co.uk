@@ -1,0 +1,21 @@
+.page-title {
+    margin-bottom: 60px;
+    max-width: (940px / 2) - 20px;
+
+    &--home {
+        margin-bottom: 30px;
+    }
+}
+
+.page-title__lead {
+    font-size: 2.4rem;
+    font-weight: bolder;
+}
+
+.page-title__sub {
+    h2, p {
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+}

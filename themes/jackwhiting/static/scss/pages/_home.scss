@@ -6,10 +6,10 @@
 }
 
 .home-lead__text {
-    width: ((100% / 12) * 6) - 2%;
+    width: calc(((100% / 12) * 6) - 20px);
 }
 
 .home-lead__image {
-    width: ((100% / 12) * 6) - 2%;
+    width: (100% / 12) * 5;
     text-align: right;
 }

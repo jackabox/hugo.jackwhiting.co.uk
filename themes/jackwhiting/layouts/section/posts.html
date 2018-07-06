@@ -1,7 +1,12 @@
 {{ partial "header.html" . }}
 
 <div class="wrapper">
-  <h1>{{ with .Site.GetPage "section" "posts" }}{{ .Title }}{{ end }}</h1>
+  {{ with .Site.GetPage "section" "posts" }}
+  <div class="page-title">
+      <h1 class="page-title__lead">{{ .Title }}</h1>
+      <div class="page-title__sub">{{ .Content }}</div>
+  </div>
+  {{ end }}
 
   <ul>
     {{ range .Paginator.Pages  }}
