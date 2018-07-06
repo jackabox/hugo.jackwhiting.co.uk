@@ -8,11 +8,17 @@
   </div>
   {{ end }}
 
-  <ul>
-    {{ range .Paginator.Pages  }}
-      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-    {{ end }}
-  </ul>
+  {{ range ((where .Data.Pages "Type" "posts").GroupByDate "2006") }}
+    <div class="post-list-group">
+      <h1 class="post-list-group__title">{{ .Key }}</h1>
+
+      <ul class="post-list">
+        {{ range .Pages }}
+          <li><h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2></li>
+        {{ end }}
+      </ul>
+    </div>
+  {{ end }}
 </div>
 
 {{ partial "footer.html" . }}

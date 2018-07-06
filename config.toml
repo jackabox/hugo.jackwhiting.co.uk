@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Jack Whiting"
 
 theme = "jackwhiting"
-paginate = 10
+paginate = 6
 pygmentsCodefences = true
 pygmentsStyle = "native"
 

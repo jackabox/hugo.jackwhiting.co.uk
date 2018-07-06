@@ -80,14 +80,14 @@ h1 {
   margin-bottom: 8px; }
 
 h2 {
-  font-size: 2.2rem;
+  font-size: 2.1rem;
   font-weight: 600;
   margin-top: 15px;
   margin-bottom: 10px; }
 
 p, li {
   font-size: 1.7rem;
-  line-height: 2.5rem; }
+  line-height: 2.8rem; }
 
 p {
   margin-bottom: 15px; }
@@ -184,9 +184,12 @@ a {
   -ms-flex-pack: end;
   justify-content: flex-end; }
   .site-nav li {
-    margin: 0 0 0 30px;
+    margin: 0 0 0 15px;
     line-height: 1;
     padding: 0; }
+    @media (min-width: 410px) {
+      .site-nav li {
+        margin: 0 0 0 30px; } }
   .site-nav a {
     font-weight: 600; }
   .site-nav .active a {
@@ -202,11 +205,13 @@ a {
     margin-bottom: 30px; }
 
 .page-title__lead {
-  font-size: 2.4rem;
+  font-size: 3rem;
+  line-height: 1.3;
   font-weight: bolder; }
 
 .page-title__sub h2, .page-title__sub p {
-  font-size: 1.8rem;
+  font-size: 2rem;
+  line-height: 1.5;
   font-weight: 500;
   margin-bottom: 0; }
 
@@ -239,6 +244,9 @@ p.cta__lead {
   p.cta__lead span {
     display: block; }
 
+.cta--footer {
+  margin-top: 40px; }
+
 .home-lead {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -257,3 +265,16 @@ p.cta__lead {
 .home-lead__image {
   width: 41.66667%;
   text-align: right; }
+
+.post-list-group {
+  margin-bottom: 60px; }
+
+.post-list {
+  margin-left: 0;
+  list-style: none; }
+  .post-list h2 {
+    color: rgba(0, 0, 0, 0.7); }
+  .post-list li {
+    margin: 30px 0; }
+  .post-list a {
+    border-bottom: 0; }
