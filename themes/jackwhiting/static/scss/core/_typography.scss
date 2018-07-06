@@ -84,5 +84,11 @@ a {
         background-position: 0 -100%; 
         background-image: linear-gradient(to top, transparent 50%, rgba(0,0,0,0.9) 50%);
     }
+}
 
+hr {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    max-width: 100px;
+    border-color: rgba(0,0,0,0.2);
 }
