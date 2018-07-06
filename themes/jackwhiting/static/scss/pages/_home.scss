@@ -1,10 +1,15 @@
 .home-lead {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
 }
 
 .home-lead__text {
-    @include column-width(6);
-    
-    margin-right: 20px;
+    width: ((100% / 12) * 6) - 2%;
+}
+
+.home-lead__image {
+    width: ((100% / 12) * 6) - 2%;
+    text-align: right;
 }
