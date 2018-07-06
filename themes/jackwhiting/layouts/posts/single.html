@@ -6,7 +6,9 @@
         <div class="page-title__sub"><p>{{ .Date }}</p></div>
     </div>
     
-    {{ .Content }}
+    <div class="post">
+        {{ .Content }}
+    </div>
 </div>
 
 {{ partial "footer.html" . }}

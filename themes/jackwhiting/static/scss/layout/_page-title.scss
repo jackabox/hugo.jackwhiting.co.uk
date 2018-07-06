@@ -1,7 +1,10 @@
 .page-title {
     margin-bottom: 60px;
-    max-width: (940px / 2) - 20px;
 
+    @media (min-width: 768px) {
+        max-width: (95% / 3 * 2);
+    }
+    
     &--home {
         margin-bottom: 30px;
     }
