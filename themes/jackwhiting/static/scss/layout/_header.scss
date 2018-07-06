@@ -1,0 +1,21 @@
+.site-header {
+    margin-top: 30px;
+    margin-bottom: 60px;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+
+    img {
+        width: 40px;
+        height: auto;
+    }
+
+    a {
+        border-bottom: 0;
+        padding-bottom: 0;
+    }
+}

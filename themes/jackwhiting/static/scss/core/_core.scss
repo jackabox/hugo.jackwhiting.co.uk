@@ -1,0 +1,14 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: $primary-font;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
