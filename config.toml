@@ -13,3 +13,23 @@ pygmentsStyle = "native"
     posts = "/posts/:slug/"
     works = "/works/:slug/"
     page = "/:slug/"
+
+[[menu.main]]
+    url = "/about"
+    name = "About"
+    weight = -100
+
+[[menu.main]]
+    url = "/posts/"
+    name = "Posts"
+    weight = -90
+
+[[menu.main]]
+    url = "/works/"
+    name = "Works"
+    weight = -80
+    
+[[menu.main]]
+    url = "mailto:hi@jackwhiting.co.uk?subject=Contact via Website"
+    name = "Contact"
+    weight = -70

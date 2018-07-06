@@ -33,4 +33,20 @@
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" media="all">
   </head>
   <body>
-    <div class="wrapper">
+
+    <header class="site-header wrapper">
+      <a class="site-logo no-effect" href="{{ .Site.BaseURL }}">
+        <img src="{{ .Site.BaseURL }}img/logo.svg" alt="JW">
+      </a>    
+      <ul class="site-nav">
+          {{- $currentPage := . -}}
+
+          {{ range .Site.Menus.main -}}
+          <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+              <a href="{{ .URL }}">{{ .Name }}</a>
+          </li>
+          {{- end }}
+      </ul>   
+    </header>
+
+    <main>
