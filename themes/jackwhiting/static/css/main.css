@@ -219,7 +219,8 @@ a {
     .page-title {
       max-width: 63.33333%; } }
   .page-title--home {
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    max-width: unset; }
 
 .page-title__lead {
   font-size: 3rem;
